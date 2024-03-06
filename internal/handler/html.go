@@ -34,8 +34,6 @@ func PageView(w http.ResponseWriter, req *http.Request) {
 	<meta property="og:description" content="Powered by LarkStat.  https://github.com/wuhan005/LarkStat" />
 </head>
 <body>
-	Welcome to larkstat!
-	<img src="%[1]s" width="%[2]d" height="%[3]d" />
 </body>
 </html>
 `, req.URL.String()+".png", 700, 220)
