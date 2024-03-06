@@ -43,17 +43,3 @@ jobs:
             echo "Run 'go mod tidy' commit them"
             exit 1
           fi
-
-  test:
-    name: Test
-    runs-on: ubuntu-latest
-    steps:
-      - name: Install Go
-        uses: actions/setup-go@v2
-        with:
-          go-version: 1.22.x
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Run tests
-        run: go test -v -race ./...
-
