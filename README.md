@@ -1,5 +1,7 @@
 # 📈 LarkStat [![Go Report Card](https://goreportcard.com/badge/github.com/wuhan005/LarkStat)](https://goreportcard.com/report/github.com/wuhan005/LarkStat) [![Sourcegraph](https://img.shields.io/badge/view%20on-Sourcegraph-brightgreen.svg?logo=sourcegraph)](https://sourcegraph.com/github.com/wuhan005/LarkStat)
 
+![demo](./assets/demo-1.png)
+
 飞书文档支持以卡片形式展示插入的链接，其后端将解析目标链接页面中的 `<meta>`
 标签，提取页面的标题、描述、图片等信息。
 
@@ -16,8 +18,9 @@ https://7ie-tech.feishu.cn/docx/Gbb7dyaAXodDXmxdSykc9qDvnZb
 ## 开始使用
 
 替换 `https://larkstat.7ie.tech/<your-uri>` 中的 `<your-uri>`
-为其他字符，即可获得一个新的统计链接。（如：`https://larkstat.7ie.tech/larkstat-test`
-）将其插入到你的飞书文档，再将其配置为`卡片视图`展示即可。
+为其他字符，即可获得一个新的统计链接。（如：`https://larkstat.7ie.tech/larkstat-test` ）
+
+将其插入到你的飞书文档，再将其配置为`卡片视图`展示即可。
 
 ## 私有部署
 
