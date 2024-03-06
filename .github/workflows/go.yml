@@ -32,6 +32,9 @@ jobs:
         with:
           version: v1.54
           args: --timeout=10m
+        env:
+          GOOS: js
+          GOARCH: wasm
       - name: Check Go module tidiness
         shell: bash
         run: |
