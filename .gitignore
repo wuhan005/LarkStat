@@ -20,3 +20,6 @@
 .envrc
 .DS_Store
 .vscode
+build
+node_modules
+.wrangler

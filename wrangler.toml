@@ -1,0 +1,14 @@
+name = "larkstat"
+main = "./build/worker.mjs"
+compatibility_date = "2022-05-13"
+compatibility_flags = [
+    "streams_enable_constructors"
+]
+
+[[kv_namespaces]]
+binding = "larkstat"
+id = "a554a5f57dc8462f904a63f567ec2bff"
+preview_id = "8517eac606f04932bace0f7c5ddfc4d9"
+
+[build]
+command = "make build"
